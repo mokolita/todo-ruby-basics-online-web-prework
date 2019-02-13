@@ -15,7 +15,7 @@ end
 def greeting(greeting, name)
   name = "Meg"
   greeting = "Hello"
-  "{greeting}, {name}"
+  "#{greeting}, #{name}"
 end
 
 def return_a_value
